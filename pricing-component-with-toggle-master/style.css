@@ -1,0 +1,104 @@
+body{
+    font-family: 'Montserrat';
+  
+}
+.main-card .list-group-item{
+    background-color: transparent;
+
+}
+.custom-card{
+    z-index: -2;
+    width: 20em;
+    margin-top: 1em;
+}
+.main-card{
+    background-image:linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    z-index: 2;
+    color: white;
+    width: 19em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.price{
+    font-size: 3em;
+    font-weight: bold;
+}
+.btn-outline-white{
+    background-color: white;
+    color:  hsl(237, 63%, 64%);
+}
+.btn-lila{
+    background-image:linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+    
+}
+.head{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+a{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+.boton{
+    font-size: 12px;
+}
+.title{
+      
+    color: hsl(233, 13%, 49%);
+    font-weight: bolder;
+    /* color: hsl(232, 13%, 33%); */
+}
+.kind{
+    color: hsl(234, 14%, 74%);
+    font-size: 0.9em;
+    display: inline;
+}
+.body{
+    background-color: hsl(240, 78%, 98%);
+   
+}
+.options div{
+    display: inline-block;
+
+}
+
+.price div{
+    display: inline-block;
+}
+
+.dolar:before{
+    content: '$';
+    font-size: 0.4em;
+    vertical-align:middle;
+   
+}
+
+
+.custom-control-input:checked~.custom-control-label::before {
+    
+    border-color: white;
+    background-image:linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
+
+.custom-switch .custom-control-input:checked~.custom-control-label::after {
+    background-color: #fff;
+    -webkit-transform: translateX(.75rem);
+    transform: translateX(.75rem);
+}
+
+.custom-switch .custom-control-label::before {
+
+    border-color: white;
+    background-image:linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
+
+.custom-switch .custom-control-label::after{
+    background-color: #fff;
+}
+footer{
+    margin-top: 80px;
+    bottom: 0;
+}
